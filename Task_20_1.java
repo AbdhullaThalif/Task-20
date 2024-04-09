@@ -9,11 +9,11 @@ public class Task_20_1 {
 	
 	 public static void main(String[] args) throws Exception {
 		 
-		  // Launch the ChromeDriver browser
-		  WebDriver driver = new ChromeDriver();
-		  // Maximize the window
-		  driver.manage().window().maximize();
-		  // Navigate to the URL
+	      // Launch the ChromeDriver browser
+	      WebDriver driver = new ChromeDriver();
+	      // Maximize the window
+	      driver.manage().window().maximize();
+	      // Navigate to the datepicker URL
 	      driver.get("https://jqueryui.com/datepicker/");
 	      // Switch to the iframe
 	      WebElement e = driver.findElement(By.xpath("//*[@id='content']/iframe"));
