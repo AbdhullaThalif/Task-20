@@ -13,8 +13,8 @@ public class Task_20_2 {
 		// Launch the Website
 		driver.get("https://www.guvi.in/");
 		driver.manage().window().maximize();
-	    Thread.sleep(1000);
-	    // Click on the Sign in option
+	        Thread.sleep(1000);
+	        // Click on the Sign in option
 		driver.findElement(By.xpath("//a[@class='nav-link btn btn-primary text-white px-4']")).click();
 		// Input the required fields values
 		driver.findElement(By.id("name")).sendKeys("Abdhul");
